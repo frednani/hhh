@@ -1,26 +1,18 @@
 body{
-	background-color: gray;
-	color: 3333;
-	border-bottom-style: black square;
-	padding:100px;
-	border-left-color: white;
-	border:100px;
-	margin-bottom: 29px;
-	border-bottom: 100px;
-	border-image-source: url("img/Ik.jpg") width="10";
+	padding: 0px;
+	margin:0px;
 
 
 
 }
 nav     {
   width: 100%;
-  display: inline-block;
-  background-color: black;
-  border-bottom-style: black solid;
+  background-color: white;
   font-size: 24px;
   padding: 30px;
   border:50px;
   border-top: 20px;
+  display: flex;
 
 
 }
@@ -34,9 +26,9 @@ nav ul li {
   margin: 1000px,1000px,1000px,1000px;
 }
 nav ul li .link   {
-  color: #FFF;
+  color: black;
   text-decoration: none;
-  display: block;
+  display: inline-flex;
   padding: 10px 15px;
   border-radius: 3px;
   transition: 0.3s ease all;
@@ -46,9 +38,11 @@ nav ul li .link:hover   {
 }
 nav ul li .lefting   {
   margin-left:350px;
+  flex: 1;
 }
 nav ul li .link1{
 	margin-left: 100px;
+	flex: 1;
 }
 h1{
 	background-color: white;
@@ -100,12 +94,18 @@ nav ul li .lefting1{
 
 }
 .container {
-	padding: 20px;
-	border-radius: 19px;
-	font-size: 24px;
-	font-family: sans-serif;
-	border-spacing: 2px;
-	font-style: italic;
-	background-position: 23px;
-	border:150px;
+	box-sizing: border-box;
+	margin: 0px;
+	border: double;
+
+}
+.logo-container{
+	flex: 1;
+	background-color: gray;
+}
+img{
+	height: 60px;
+	width: 90px;
+	margin:auto;
+
 }
