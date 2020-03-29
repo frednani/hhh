@@ -2,6 +2,10 @@ body{
 	padding: 0px;
 	margin:0px;
 	background-image: url("img/latter.png");
+	height: 100%;
+	width:100%;
+
+
 
 
 
@@ -70,16 +74,7 @@ h1{
 	margin-right: 0px;
 
 }
-.main-footer{
-	text-align: center;
-	margin-left: 234;
-	color: black;
-	padding-bottom: 12px;
-	direction: left;
-	font-family: sans-serif;
-	font-style: italic;
-	font-size: 12px;
-}
+
 nav ul li .lefting1{
 	margin-left:200px;
 
@@ -108,5 +103,23 @@ img{
 	height: 60px;
 	width: 90px;
 	margin:auto;
+
+}
+.container{
+font-family: monospace;
+border-radius: 10px;
+
+}
+.whatever{
+	font-family: monospace;
+}
+.main-footer{
+	font-size: 20px;
+	font-family: monospace;
+	border-radius: 0px;
+	padding: 20px;
+text-align: center;
+background-color: rgb(27%,21%,-50%);
+border:40px black solid;
 
 }

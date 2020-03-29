@@ -61,3 +61,8 @@ font-family: monospace;
 	cursor: pointer;
 	font-family: monospace;
 }
+.main-footer{
+	text-align: center;
+	font-family: monospace;
+	outline-color: skyblue;
+}
