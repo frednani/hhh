@@ -2,7 +2,7 @@ body{
 	padding: 0px;
 	margin: 0px;
 	font-family: sans-serif;
-		background-image: url("./img/nani.jpg");
+		background-image: url("./img/lala.jpg");
 		background-repeat: no-repeat;
 
 }
@@ -65,4 +65,7 @@ font-family: monospace;
 	text-align: center;
 	font-family: monospace;
 	outline-color: skyblue;
+}
+.box input[type="submit"]:hover{
+	background: black;
 }
