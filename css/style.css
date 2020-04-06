@@ -13,6 +13,16 @@ ul{
 	margin: 0px;
 	padding: 0px;
 }
+.butto-1{
+	height: 38px;
+	background: skyblue;
+	border:0;
+	padding-left: 20px;
+	padding-right: 20px;
+	background: #ffffff;
+	font-family: monospace;
+	cursor: pointer;
+}
 header{
 	background: #35424a;
 	color:#ffffff;
@@ -69,7 +79,7 @@ header a:hover{
 	font-size: 20px;
 }
 .Newsletter{
-	padding: 15px;
+	padding: 30px;
 	color:#ffffff;
 	background: #35424a
 }
@@ -78,7 +88,40 @@ header a:hover{
 }
 .Newsletter form{
 	float: right;
-	margin-left: 40px;
+	margin:-26px;
+}
+.Newsletter input[type="email"]{
+	padding: 4px;
+	height: 25px;
+	width: 250px;
+}
+.otherlinks{
+	margin-top: 20px;
+}
+.otherlinks .box{
+	float: left;
+	width: 30%;
+	text-align: center;
+	padding: 10px;
+} 
+.otherlinks .box-1{
+	float: left;
+	text-align:center;
+	padding:10px;
+}
+.otherlinks .box-1 img{
+	width: 90px;
+}
+.otherlinks .box img{
+	width: 90px;
+}
+footer{
+	padding:20px;
+	margin-top: 20px;
+	color:#ffffff;
+	background-color:gray;
+	text-align:center;
+	font-family: monospace;
 }
 
 
